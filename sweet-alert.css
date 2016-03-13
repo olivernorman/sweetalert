@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
 .sweet-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   left: 0;
   right: 0;
@@ -11,7 +11,7 @@
 
 .sweet-alert {
   background-color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: verdana, sans-serif;
   width: 478px;
   padding: 17px;
   border-radius: 6px;
@@ -32,8 +32,8 @@
       left: 15px;
       right: 15px; } }
   .sweet-alert h2 {
-    color: #575757;
-    font-size: 30px;
+    color: #e75c19;
+    font-size: 24px;
     text-align: center;
     font-weight: 600;
     text-transform: none;
@@ -83,7 +83,7 @@
     position: relative;
     box-sizing: content-box; }
     .sweet-alert .icon.error {
-      border-color: #B20000; }
+      border-color: #FF0000; }
       .sweet-alert .icon.error .x-mark {
         position: relative;
         display: block; }
@@ -91,7 +91,7 @@
         position: absolute;
         height: 5px;
         width: 47px;
-        background-color: #B20000;
+        background-color: #FF0000;
         display: block;
         top: 37px;
         border-radius: 2px; }
@@ -145,7 +145,7 @@
         top: 19px;
         background-color: #e75c19; }
     .sweet-alert .icon.success {
-      border-color: #006600; }
+      border-color: #008000; }
       .sweet-alert .icon.success::before, .sweet-alert .icon.success::after {
         content: '';
         border-radius: 50%;
@@ -192,7 +192,7 @@
         transform: rotate(-45deg); }
       .sweet-alert .icon.success .line {
         height: 5px;
-        background-color: #006600;
+        background-color: #008000;
         display: block;
         border-radius: 2px;
         position: absolute;
